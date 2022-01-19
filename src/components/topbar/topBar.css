@@ -1,0 +1,28 @@
+.topNav {
+  top: 0;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 5px solid rgb(102, 101, 101);
+  height: 130px;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Shizuru", cursive;
+  color: lightsalmon;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.logoTitle {
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, auto);
+}

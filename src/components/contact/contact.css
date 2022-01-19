@@ -1,0 +1,27 @@
+#contact {
+  display: inline-block;
+}
+
+.contact_icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.contact_icons i {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+#contact a {
+  text-decoration: bold;
+  color: #fffff7;
+}
+
+#contact h2,
+#contact h5 {
+  color: #fffff7;
+  text-align: center;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,28 @@
+.petDisplay {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, auto);
+  border: lightslategrey;
+}
+.pet_card {
+  margin-top: 50px;
+  box-sizing: border-box;
+  border: 5px solid rgb(102, 101, 101);
+}
+img {
+  height: 200px;
+  width: 300px;
+}
+.add-pet {
+  border-top: none;
+  margin-top: 50px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: 5px solid rgb(102, 101, 101);
+}
+input {
+  border: 2px solid rgb(182, 117, 117);
+  border-radius: 4px;
+  margin: 8px;
+  padding: 12px 20px;
+}
